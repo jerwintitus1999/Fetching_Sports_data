@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/dynamic-gradient-football-background_23-2149007789.jpg?w=996&t=st=1721883685~exp=1721884285~hmac=103005eca458e98cc9c03f63907366d10e103751c5790b8b045b6065bb5f9a90");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.heading{
+    margin-top: 20vh;
+}
+.table{
+    margin: 5vh 50vh 10vh 50vh;
+    border: 2px solid white;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+    margin-top: 5vh;
+}
+.form{
+    display: grid;
+    justify-content: center;
+}
+label{
+    padding: 5px 5px 5px 0;
+    font-size: large;
+    font-weight: 700;
+}
+input{
+    border: 2px solid white;
+    border-radius: 5px;
+    color: black;
+}
+button{
+    margin: 15px;
+    /* border: 2px solid white; */
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #414c50;
+    color: aliceblue;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: #2d383c;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+h2{
+    margin: 50px 5px 0 5px;
+}
+
+#history{
+    margin-left: 500px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th, td {
+    text-align: center;
+    border: 1px solid white;
+    padding: 10px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.team-1{
+    padding: 5px;
+}
+.team-2{
+    padding: 5px;
+}
